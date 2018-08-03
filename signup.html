@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body background="images (2).jpg">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="home.html">HOME</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a>
+          </li>
+
+        </ul>
+      </div>
+
+
+
+      <div class="nav navbar-navnavbar-right" id="navbarSupportedContent">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="login.php">LOG IN <span class="sr-only">(current)</span></a>
+          </li>
+
+
+      </div>
+
+
+
+        <div class="nav navbar-navnavbar-right" id="navbarSupportedContent">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="signup.html">SIGN UP <span class="sr-only">(current)</span></a>
+                </li>
+
+
+            </div>
+    </nav>
+
+
+
+
+
+</div>
+<div class="container">
+
+    <form method="post"action="signup_conn.php">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="fname"> FIRST NAME</label>
+          <input type="text" class="form-control" id="fname" name ="fname" placeholder="">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="lname">LAST NAME</label>
+          <input type="text" class="form-control" id="lname" name="lname" placeholder="">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email"> EMAIL</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="@gmail.com">
+      </div>
+      <div class="form-group">
+        <label for="password">PASSWORD</label>
+        <input type="password" class="form-control" id="password" name="password"placeholder="">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="country">COUNTRY</label>
+          <input type="text" class="form-control" id="country" name="country">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="gender">GENDER</label>
+          <select id="gender" class="form-control" name="gender">
+            <option selected>select</option>
+            <option>MALE</option>
+            <option>FEMALE</option>
+            <option>NONE OF THESE</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="phone_number">PHONE NUMBER</label>
+          <input type="text" class="form-control" id="phone_number" name="phone_number">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <input type="submit" name="submit" value="signin" class="btn btn-primary">
+    </form>
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
